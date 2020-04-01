@@ -11,3 +11,5 @@ The following packages are tasked with the following contributions:
 ––runner: contains the cucumber runner class
 
 ––stepDefs: contains the step definitions for the feature files specified in src/test/resources/features
+
+Maven project pom.xml file contains all the necessary dependencies required to execute tests (unit, cucumber, selenium etc.)
