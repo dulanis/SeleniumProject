@@ -16,7 +16,7 @@ import org.openqa.selenium.WebDriver;
 		plugin = {"pretty"}, 
 		features = {"src/test/resources/features"},
 		glue = {"stepDefs"},
-		tags = {"@testBundles"}
+		tags = {"@testBundles", "not @testHotels"}
 		)
 public class RunCucumberTest {
 	
